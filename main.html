@@ -7,10 +7,50 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form method="get">	
+		<div>
+			<label for="name">Name*</label>
+			<input type="text" required id="name"/>
+		</div>
 
+		<div>
+			<label for="email">Email*</label>
+			<input type="email" required id="email"/>
+		</div>
+		
+		<div>
+			<label for="gender">Gender*</label>
+			<input type="radio" name="gender"/>
+			<input type="radio" name="gender"/>
+		</div>
+
+		<div>
+			<label for="laptop">Laptop Brands</label>
+			<select id="laptop">
+				<option>Apple</option>
+				<option>Asus</option>
+				<option>HP</option>
+			</select>
+		</div>
+
+		<div>
+			<label for="age">Age*</label>
+			<input type="number" required id="age"/>
+		</div>
+
+		<div>
+			<label for="dob">DOB*</label>
+			<input type="date" required id="dob"/>
+		</div>
+
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" required id="password"/>
+		</div>
+
+		<input type="ur" id="portfolio"/>
+		<input type="submit" value="submit"/>
+		</form>
 </body>
 
 </html>
